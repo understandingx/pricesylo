@@ -1,0 +1,134 @@
+PriceSylo Engine Software Licence Agreement
+=============================================
+
+This Software Licence Agreement ("Agreement") governs your use of the PriceSylo
+engine and its accompanying files (the "Software"), published by Laxtic Software
+Services, a business name registered with the Corporate Affairs Commission of
+Nigeria (Business Name Registration No. 8618796), of 1 Adekunle Owobiyi Close,
+off Oladele Kadiri Close, Ogba, Lagos State, Nigeria ("Licensor"). By
+installing, running, or otherwise using the Software you ("Licensee") agree to
+these terms. If you do not agree, do not install or use the Software.
+
+The Software is LICENSED, NOT SOLD. Licensor retains all right, title, and
+interest in and to the Software, including all intellectual property rights.
+
+
+1. LICENCE TIERS
+----------------
+Your licence is one of the following two tiers, determined by your purchase and
+bound to the email address recorded during setup:
+
+  PERSONAL
+    - Term: one (1) year from activation, renewable.
+    - Devices: up to three (3) concurrent activated devices.
+    - Intended for an individual's own use.
+
+  COMMERCIAL
+    - Term: two (2) years from activation, renewable.
+    - Devices: up to five (5) concurrent activated devices.
+    - Permitted for use within a single organisation.
+
+FEATURE PARITY. Both tiers provide the SAME market-data functionality and the
+same read access to all data features. The tiers differ ONLY in: (a) the number
+of concurrent activated devices, (b) licence duration, and (c) the quantitative
+workspace and timeframe limits associated with your tier. No market-data feature
+is withheld from either paid tier.
+
+
+2. LICENCE VERIFICATION AND DEVICE BINDING
+------------------------------------------
+The Software enforces this licence by software. On first start and periodically
+thereafter, the Software verifies your licence with Licensor's licensing service
+over an encrypted channel. To perform verification the Software transmits only:
+your licence email, a coarse device description, an installation identifier, a
+derived machine fingerprint, and the build tier. It does NOT transmit your
+trading activity, your exchange API credentials, your orders, or your market
+data; exchange connections are made directly from your machine.
+
+You acknowledge and agree that:
+  (a) THE SOFTWARE WILL NOT RUN without successful verification. If verification
+      returns an invalid result (no active licence, wrong tier, expired term,
+      device limit reached, or a machine-binding mismatch), the Software will
+      not start, or will stop if already running.
+  (b) Each activation is BOUND to the machine on which it is installed. Moving an
+      installation's identity to a different machine invalidates it.
+  (c) Your concurrent activated devices are limited to your tier's device count.
+      If you lose or replace a machine and reach your limit, contact
+      support@pricesylo.com to release a device seat.
+  (d) Circumventing, disabling, or tampering with the verification or
+      anti-tamper mechanisms is a material breach and terminates this licence
+      automatically.
+
+
+3. RESTRICTIONS
+---------------
+You may NOT, in whole or in part:
+  (a) resell, sublicense, rent, lease, lend, distribute, or otherwise transfer
+      the Software or your licence to any third party;
+  (b) share your licence, activations, or licence email with anyone outside the
+      scope of your tier;
+  (c) copy the Software except as strictly necessary to install and run it under
+      this licence, or make it available on a network for others to use beyond
+      your permitted devices;
+  (d) reverse engineer, decompile, disassemble, deobfuscate, or attempt to
+      derive source code or the licensing/anti-tamper design, except to the
+      limited extent this restriction is prohibited by applicable law;
+  (e) remove, alter, or obscure any proprietary notice.
+
+This licence is NON-TRANSFERABLE and NON-EXCLUSIVE.
+
+
+4. TERM AND TERMINATION
+-----------------------
+This Agreement is effective until terminated. Every licence also expires at the
+end of its term unless renewed - one (1) year for Personal, two (2) years for
+Commercial - and neither tier renews automatically. Licensor may terminate this
+Agreement if you breach any term. Upon termination for breach or on expiry, your
+right to use the Software ends and you must cease all use and remove all copies.
+Sections 2(a), 3, 5, 6, and 7 survive termination.
+
+
+5. NO WARRANTY
+--------------
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT.
+Licensor does not warrant that the Software will be uninterrupted or error-free,
+or that verification will always be available.
+
+NOTHING IN THE SOFTWARE IS FINANCIAL, INVESTMENT, OR TRADING ADVICE. You are
+solely responsible for your trading decisions and their outcomes.
+
+
+6. LIMITATION OF LIABILITY
+--------------------------
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY
+INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR EXEMPLARY DAMAGES, OR FOR ANY
+LOSS OF PROFITS, TRADING LOSSES, DATA, OR GOODWILL, ARISING OUT OF OR RELATED TO
+THE SOFTWARE OR THIS AGREEMENT. LICENSOR'S TOTAL AGGREGATE LIABILITY SHALL NOT
+EXCEED THE AMOUNT YOU PAID FOR THE LICENCE IN THE TWELVE (12) MONTHS PRECEDING
+THE CLAIM.
+
+
+7. GENERAL
+----------
+This Agreement is governed by the laws of the Federal Republic of Nigeria,
+without regard to conflict-of-law rules. The courts of Lagos State, Nigeria have
+exclusive jurisdiction over any dispute arising out of or in connection with this
+Agreement, and the parties submit to that jurisdiction.
+
+EVALUATION AND REFUNDS. The Software is provided AS IS. A full, hosted demo is
+available at https://demo.pricesylo.com/ so that you may evaluate the complete
+product before you buy. Because a licence delivers the downloadable build to you
+immediately upon purchase, ALL SALES ARE FINAL AND NO REFUNDS ARE ISSUED. Try
+the demo before purchasing.
+
+This Agreement, together with the published Terms of Service and Privacy Policy,
+is the entire agreement between the parties regarding the Software. If any
+provision is held unenforceable, the remaining provisions remain in effect.
+
+For questions about this licence, contact Laxtic Software Services at
+support@pricesylo.com.
+
+Copyright (c) 2026 Laxtic Software Services.
+All rights reserved.
