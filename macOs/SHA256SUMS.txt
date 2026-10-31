@@ -1,0 +1,2 @@
+04afc1f30128bdfcf0a2f5633d91b88669bb9b638ac4a407da2ef4d174fc3a82  PriceSylo-App-1.0.6-mac-arm64.dmg
+a5cd34f010cf3946beb0cc7992654c1fc38bc69b534599fc9121f80645a444f5  PriceSylo-App-1.0.6-mac-x64.dmg
