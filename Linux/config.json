@@ -1,0 +1,102 @@
+{
+  "server": {
+    "host": "0.0.0.0",
+    "port": 8420,
+    "wss": {
+      "heartbeatMs": 30000,
+      "maxSubscriptionsPerConn": 64,
+      "maxBufferedBytes": 4194304,
+      "compiledIntervalMs": 1000
+    }
+  },
+  "proxy": {
+    "enabled": false,
+    "host": "",
+    "port": "",
+    "user": "",
+    "pass": ""
+  },
+  "engine": {
+    "defaultTimeframes": [
+      "1m",
+      "5m",
+      "30m"
+    ],
+    "defaultTier": "middle",
+    "warmupBars": 1000,
+    "klineAnalysisMode": "throttled",
+    "klineAnalysisThrottleMs": 1000,
+    "maintenanceIntervalMs": 500,
+    "backupIntervalMs": 15000,
+    "keeperRefreshHours": 24
+  },
+  "chart": {
+    "defaultWidth": 1280,
+    "defaultHeight": 720,
+    "defaultBars": 150,
+    "defaultStyle": "candle",
+    "defaultTheme": "dark",
+    "maxConcurrent": 4,
+    "renderTimeoutMs": 20000
+  },
+  "feed": {
+    "candleThrottleMs": 250,
+    "tradeBatchMs": 200,
+    "tradeBufferSize": 500,
+    "depthIntervalMs": 250,
+    "bookDepth": 1000,
+    "depthLevelsDefault": 1000,
+    "depthHistoryEnabled": true,
+    "depthHistoryIntervalMs": 500,
+    "depthHistoryLevels": 300,
+    "depthHistoryRetentionMs": 1800000,
+    "depthHistoryPersistMs": 60000,
+    "footprintEnabled": true,
+    "footprintRetentionMin": 240,
+    "footprintMaxLevels": 1500,
+    "footprintBackfillEnabled": true,
+    "footprintBackfillMinutes": 60,
+    "footprintBackfillMaxRequests": 40,
+    "bookSeedEnabled": true,
+    "bookSeedLevels": 1000,
+    "bookRebaseMs": 600000,
+    "bookSeedMinIntervalMs": 15000,
+    "klinesDefaultLimit": 500,
+    "klinesMaxConcurrent": 4,
+    "fetchTimeoutMs": 20000
+  },
+  "subscriptions": {
+    "enabled": true,
+    "maxSubscriptions": 200,
+    "defaultConfirm": 2,
+    "defaultCooldownMs": 300000,
+    "defaultRearmPercent": 2,
+    "requestTimeoutMs": 5000,
+    "maxAttempts": 5,
+    "backoffMs": 1000,
+    "maxBackoffMs": 60000,
+    "disableAfterFailures": 20,
+    "queueLimit": 1000,
+    "eventLogLimit": 5000,
+    "allowedHosts": [
+      "127.0.0.1",
+      "localhost",
+      "::1"
+    ],
+    "allowPrivateNetwork": true
+  },
+  "credentials": {},
+  "demoGate": {
+    "enabled": false,
+    "useMinutes": 30,
+    "cooldownMinutes": 60,
+    "readOnly": true,
+    "trustProxy": false
+  },
+  "logging": {
+    "level": "info"
+  },
+  "license": {
+    "key": ""
+  }
+}
