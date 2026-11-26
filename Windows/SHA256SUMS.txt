@@ -1,0 +1,1 @@
+ba4cce87b27463c7a8586d6757643b11ac27ced055cf88f6ee5197eb008e7037  PriceSylo-App-1.0.10-win-x64-setup.exe
